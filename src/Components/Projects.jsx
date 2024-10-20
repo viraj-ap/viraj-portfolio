@@ -12,7 +12,7 @@ export const Projects = () => {
         <Link
           heading="Film Gague"
           subheading="Film Review Application made using React and SpringBoot"
-          imgSrc="/assets/FilmGague.png"
+          imgSrc="public/assets/FilmGague.png"
           href="https://github.com/viraj-ap/FilmGague"
           target="_blank"
           rel="noopener noreferrer"
@@ -20,7 +20,7 @@ export const Projects = () => {
         <Link
           heading="passNinja"
           subheading="Password Manager Application made using MERN stack"
-          imgSrc="/assets/passNinja.png"
+          imgSrc="public/assets/passNinja.png"
           href="https://github.com/viraj-ap/passNinja"
           target="_blank"
           rel="noopener noreferrer"
@@ -28,7 +28,7 @@ export const Projects = () => {
         <Link
           heading="easiControl"
           subheading="A desktop Application made using Python GUI tkinter library"
-          imgSrc="/assets/easiControl.png"
+          imgSrc="public/assets/easiControl.png"
           href="https://github.com/viraj-ap/easiControl"
           target="_blank"
           rel="noopener noreferrer"

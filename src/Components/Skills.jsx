@@ -2,17 +2,17 @@ import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 
 const images = [
-  "/skills/2.png",
-  "/skills/3.png",
-  "/skills/4.png",
-  "/skills/5.png",
-  "/skills/6.png",
-  "/skills/7.png",
-  "/skills/8.png",
-  "/skills/9.png",
-  "/skills/10.png",
-  "/skills/11.png",
-  "/skills/12.png",
+  "assets/skills/2.png",
+  "assets/skills/3.png",
+  "assets/skills/4.png",
+  "assets/skills/5.png",
+  "assets/skills/6.png",
+  "assets/skills/7.png",
+  "assets/skills/8.png",
+  "assets/skills/9.png",
+  "assets/skills/10.png",
+  "assets/skills/11.png",
+  "assets/skills/12.png",
 ];
 
 const Skills = () => {

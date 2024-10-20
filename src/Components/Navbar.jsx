@@ -29,7 +29,7 @@ const Navbar = () => {
                 <div className="flex-shrink-0">
                     <img
                         onClick={() => handleScroll('hero')} // Adjust scroll for 'home' section
-                        className='h-12 md:ml-10 cursor-pointer rounded' src="/assets/logo_nobg.png" alt="Logo" />
+                        className='h-12 md:ml-10 cursor-pointer rounded' src="public/assets/logo_nobg.png" alt="Logo" />
                 </div>
 
                 {/* Hamburger Menu Button for Mobile */}
