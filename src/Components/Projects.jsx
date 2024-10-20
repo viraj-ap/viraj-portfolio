@@ -1,6 +1,10 @@
 import { useMotionValue, motion, useSpring, useTransform } from "framer-motion";
 import React, { useRef } from "react";
 import { FiArrowRight } from "react-icons/fi";
+import FilmGague from '/assets/FilmGague.png';
+import passNinja from '/assets/passNinja.png';
+import easiControl from '/assets/easiControl.png';
+
 
 export const Projects = () => {
   return (
@@ -12,7 +16,7 @@ export const Projects = () => {
         <Link
           heading="Film Gague"
           subheading="Film Review Application made using React and SpringBoot"
-          imgSrc="public/assets/FilmGague.png"
+          imgSrc={FilmGague}
           href="https://github.com/viraj-ap/FilmGague"
           target="_blank"
           rel="noopener noreferrer"
@@ -20,7 +24,7 @@ export const Projects = () => {
         <Link
           heading="passNinja"
           subheading="Password Manager Application made using MERN stack"
-          imgSrc="public/assets/passNinja.png"
+          imgSrc={passNinja}
           href="https://github.com/viraj-ap/passNinja"
           target="_blank"
           rel="noopener noreferrer"
@@ -28,7 +32,7 @@ export const Projects = () => {
         <Link
           heading="easiControl"
           subheading="A desktop Application made using Python GUI tkinter library"
-          imgSrc="public/assets/easiControl.png"
+          imgSrc={easiControl}
           href="https://github.com/viraj-ap/easiControl"
           target="_blank"
           rel="noopener noreferrer"

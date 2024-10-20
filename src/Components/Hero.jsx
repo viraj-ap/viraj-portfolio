@@ -1,5 +1,6 @@
 import React from 'react';
 import Example from './BubbleText/BubbleText';
+import heroImg from '/assets/hero_img.png';
 
 const Hero = () => {
     return (
@@ -10,7 +11,7 @@ const Hero = () => {
             <div className='flex justify-center w-full px-4 md:w-1/2'>
                 <img 
                     className='w-full md:w-3/4 hover:translate-y-[-10px] hover:translate-x-[-10px] transition-all duration-300 max-w-xs md:max-w-none' 
-                    src="/assets/hero_img.png" 
+                    src={heroImg}  
                     alt="Hero Image" 
                 />
             </div>
