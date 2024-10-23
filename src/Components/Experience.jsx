@@ -11,10 +11,10 @@ const Experience = () => {
                             Conducted a web development workshop for 150+ students, delivering an in-depth session on foundational and advanced web development topics.
                              Also organized Artemis, an 8-hour front-end hackathon.`,
         },
-        {
-            title: 'SDE intern | Global iSpice Platforms Private Limited',
-            description: `Currently working on website using React and TypeScript.`,
-        },
+        // {
+        //     title: 'SDE intern | Global iSpice Platforms Private Limited',
+        //     description: `Currently working on website using React and TypeScript.`,
+        // },
         {
             title: 'Web Development Intern | Birla Copper, Aditya Birla Industries',
             description: `During my internship, I gained hands-on experience with HTML, CSS, and JavaScript and React, focusing on site maintenance and development. This role provided valuable corporate exposure, allowing me to work closely with industry professionals and understand real-world web development processes. I enhanced my technical skills by contributing to live projects, troubleshooting issues, and implementing updates. This experience improved my ability to collaborate effectively in a professional setting and deepened my understanding of web technologies.`,

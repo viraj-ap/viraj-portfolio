@@ -80,7 +80,7 @@ const BubbleText = () => {
                     <FaLinkedin />
                 </a>
                 {/* Email */}
-                <a href="mailto:viraj25092004@gmail.com" className="hover:text-violet-300">
+                <a href="mailto:viraj25092004@gmail.com"  target="_blank" className="hover:text-violet-300">
                     <MdEmail />
                 </a>
             </div>

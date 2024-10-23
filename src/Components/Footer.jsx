@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';  // Importing social icons
 import { MdEmail } from 'react-icons/md';
+import logo from "/assets/logo_nobg.png"
 
 const Footer = () => {
   return (
@@ -15,7 +16,7 @@ const Footer = () => {
       <div className="container mx-auto p-4 pb-4 text-center">
         <div className='flex items-center justify-center'>
 
-          <img className="h-12" src="/assets/logo_nobg.png" alt="" />
+          <img className="h-12" src={logo} alt="" />
         </div>
         <h2 className="text-2xl font-bold">Contact Me</h2>
         <h2 className="text-sm font-bold mb-4"> a dm wont hurt :) </h2>
