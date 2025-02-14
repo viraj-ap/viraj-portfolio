@@ -4,10 +4,11 @@ import styles from "./bubble.module.css";
 import EButton from "../EButton";
 import { FaGithub, FaLinkedin } from 'react-icons/fa';  // Importing social icons
 import { MdEmail } from 'react-icons/md';
+import DinoEasterEgg from "../DinoEasterEgg";
 
 const Example = () => {
     return (
-        <div id="home" className="grid h-auto place-content-center px-4 pt-8 md:pt-0 lg:px-8 lg:pt-16 lg:h-screen"> 
+        <div id="home" className=" cursor-pointer grid h-auto place-content-center px-4 lg:px-8 lg:pt-16">
             {/* Adjusted padding for larger screens */}
             <BubbleText />
         </div>
@@ -70,7 +71,7 @@ const BubbleText = () => {
             </motion.h2>
 
             <EButton />
-            <div className="flex justify-center space-x-8 text-2xl sm:text-3xl mb-6 invert mt-3">
+            <div className="flex justify-center space-x-8 text-2xl sm:text-3xl invert mt-3">
                 {/* GitHub */}
                 <a href="https://github.com/viraj-ap" target="_blank" rel="noopener noreferrer" className="hover:text-violet-300">
                     <FaGithub />
@@ -80,9 +81,12 @@ const BubbleText = () => {
                     <FaLinkedin />
                 </a>
                 {/* Email */}
-                <a href="mailto:viraj25092004@gmail.com"  target="_blank" className="hover:text-violet-300">
+                <a href="mailto:viraj25092004@gmail.com" target="_blank" className="hover:text-violet-300">
                     <MdEmail />
                 </a>
+            </div>
+            <div className="flex items-center justify-center">
+                <DinoEasterEgg />
             </div>
         </>
     );
